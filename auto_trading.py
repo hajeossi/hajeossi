@@ -42,8 +42,8 @@ def get_trade_time(ticker):                         # 최근 거래 채결 날�
 ##########################################################################################################
 
 # 로그인
-access = "81VU8E71aB0MTIt2hwwveNG5pK9XJxIQkDAjsV1j"
-secret = "BFxFh8lAA7XJLVxE5QlZuxlNtJxsR9xt7jrSzbQk"
+access = ""
+secret = ""
 
 upbit = pyupbit.Upbit(access, secret)
 print("Login OK")
